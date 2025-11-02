@@ -15,7 +15,7 @@ Fitur
 
 ---
 
-## 🧩 Teknologi
+Teknologi
 - HTML5, CSS3, JavaScript (vanilla)  
 - Hosted with **GitHub Pages**
 
