@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <img src="images/Femure Logo PNG Hitam.png" alt="Logo" width="180" style="filter: brightness(0) invert(1);">
+      </div>
+      <nav class="nav">
+        <a href="index.html">Beranda</a>
+        <a href="portofolio.html">Data</a>
+        <a href="contact.html">Kontak</a>
+      </nav>
+    </div>
+  </header>
+  <section class="contact">
+    <div class="container">
+      <h1 class="title">Contact Me</h1>
+      <p class="subtitle">Let's connect and create something amazing together.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Get In Touch</h2>
+          <p>Feel free to reach out via email or social media. I’ll respond as soon as I can!</p>
+          <ul>
+            <li><strong>Email:</strong> mgsmfr@gmail.com</li>
+            <li><strong>Phone:</strong> +62 823-8344-5524</li>
+            <li><strong>Instagram:</strong> <a href="https://instagram.com/mgsmfr" target="_blank">@yourusername</a></li>
+          </ul>
+        </div>
+
+        <div class="contact-form">
+  <form id="projectForm" action="#" method="post" novalidate>
+    <h3>Kirim Request / Konsultasi</h3>
+
+    <!-- Nama -->
+    <div class="form-group">
+      <label for="name">Nama Lengkap <span aria-hidden="true" style="color:var(--accent)">*</span></label>
+      <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap" required>
+    </div>
+
+    <!-- Email -->
+    <div class="form-group">
+      <label for="email">Email <span aria-hidden="true" style="color:var(--accent)">*</span></label>
+      <input type="email" id="email" name="email" placeholder="contoh@domain.com" required>
+    </div>
+
+    <!-- Dropdown: Jenis Layanan / Topik -->
+    <div class="form-group">
+      <label for="service">Jenis Layanan / Topik <span aria-hidden="true" style="color:var(--accent)">*</span></label>
+      <select id="service" name="service" required>
+        <option value="" disabled selected>Pilih layanan...</option>
+        <option value="website">Pembuatan Website Company Profile</option>
+        <option value="ecommerce">Website Portofolio</option>
+        <option value="design">Custom Website</option>
+        <option value="consult">Konsultasi Website</option>
+        <option value="other">Lainnya</option>
+      </select>
+    </div>
+
+    <!-- Textarea: Pesan / Deskripsi Proyek -->
+    <div class="form-group">
+      <label for="message">Pesan / Deskripsi Proyek <span aria-hidden="true" style="color:var(--accent)">*</span></label>
+      <textarea id="message" name="message" rows="6" placeholder="Jelaskan kebutuhan / deskripsi singkat proyek" required></textarea>
+    </div>
+
+    <!-- Checkbox or Radio (pilih salah satu) -->
+    <div class="form-group">
+      <label>Preferensi Kontak <span aria-hidden="true" style="color:var(--accent)">*</span></label>
+      <div class="choice-row">
+        <label class="choice"><input type="radio" name="contact_pref" value="email" checked> Email</label>
+        <label class="choice"><input type="radio" name="contact_pref" value="wa"> WhatsApp</label>
+        <label class="choice"><input type="radio" name="contact_pref" value="call"> Panggilan Telepon</label>
+      </div>
+    </div>
+
+    <!-- Checkbox persetujuan -->
+    <div class="form-group">
+      <label class="checkbox">
+        <input type="checkbox" id="agree" name="agree" required>
+        Saya menyetujui untuk dihubungi dan data saya dapat diproses sesuai kebutuhan.
+      </label>
+    </div>
+
+    <!-- Submit -->
+    <div class="form-group">
+      <button type="submit" class="btn">Kirim Request</button>
+    </div>
+
+    <!-- Tempat pesan error/sukses -->
+    <div id="formMessage" aria-live="polite" style="margin-top:10px"></div>
+  </form>
+</div>
+
+      </div>
+    </div>
+  </section>
+</body>
+</html>
